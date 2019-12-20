@@ -1,3 +1,6 @@
+## Problem LINK: https://www.hackerrank.com/challenges/30-class-vs-instance/problem
+
+
 class Person:
     
     def __init__(self,initialAge):
@@ -27,3 +30,25 @@ for i in range(0, t):
         p.yearPasses()       
     p.amIOld()
     print("")
+ 
+
+'''  OUTPUT:
+
+ RESTART: C:/Users/aditya/Desktop/python beginning/DAY4  Class vs Instance.py 
+4
+-1
+Age is not valid, setting age to 0.
+You are young.
+You are young.
+
+10
+You are young.
+You are a teenager.
+
+15
+You are a teenager.
+You are old.
+
+24
+You are old.
+You are old.      '''
