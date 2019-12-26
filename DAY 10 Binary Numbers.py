@@ -1,3 +1,7 @@
+
+## Problem Link: https://www.hackerrank.com/challenges/30-binary-numbers/problem
+
+
 n=int(input())
 x=bin(n)
 y=x[2::]
@@ -17,7 +21,7 @@ y=x[2::]
 
 
 print(max(map(len,y.split("0"))))   ## Maximum length of consecutive ones.
-
+# Reference: https://www.geeksforgeeks.org/python-map-length-longest-consecutive-1s-binary-representation-given-integer/
 
 '''
 
