@@ -1,5 +1,6 @@
 ## Problem Link: https://www.hackerrank.com/challenges/30-2d-arrays/problem
-
+## Obtaining different sum of hourglass and getting the maximum sum out of it.
+## Input is 6x6 matrix.
 
 a=[]
 l=[]
@@ -9,8 +10,8 @@ for _ in range(6):
     a.append(list(map(int,input().split())))
 
     
-for i in range(4):
-    for j in range(4):
+for i in range(4):    ## 4 is problem specific here. For general case use rows-2 
+    for j in range(4):  ## 4 is problem specific here. For general case use columns-2 
         sum=a[i][j]+a[i][j+1]+a[i][j+2]+a[i+1][j+1]+a[i+2][j]+a[i+2][j+1]+a[i+2][j+1]
         l.append(sum)
 
