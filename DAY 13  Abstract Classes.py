@@ -1,5 +1,5 @@
 ## Problem Link: https://www.hackerrank.com/challenges/30-abstract-classes/problem
-
+## Refer before attempting: https://github.com/adityakalra581/30-Days-of-Code/commit/5968d98f440e6025596393e8dff2b6693011f2bc
 from abc import ABCMeta,abstractmethod
 class Book(object,metaclass=ABCMeta):
     ## We can just import ABC instead of ABCMeta and use it as metaclass.
