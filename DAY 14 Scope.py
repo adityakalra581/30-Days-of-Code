@@ -1,4 +1,4 @@
-
+## Problem Link: https://www.hackerrank.com/challenges/30-scope/problem
 
 
 class Difference:
@@ -35,3 +35,4 @@ INPUT:
 OUTPUT:
 
 62
+'''
